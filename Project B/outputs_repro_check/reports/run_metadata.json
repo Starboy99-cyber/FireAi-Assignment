@@ -1,0 +1,24 @@
+{
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "config": {
+    "seed": 20261028,
+    "posterior_draws": 800,
+    "adstock_alpha": 0.5,
+    "saturation_quantile": 0.5,
+    "ridge_prior_precision": 2.0,
+    "vendor_roas": 0.8,
+    "vendor_roas_ci90": [
+      0.3,
+      1.3
+    ],
+    "calibration_sd_inflation": 2.0
+  },
+  "diagnostics": {
+    "posterior_method": "normal_inverse_gamma_bayesian_ridge",
+    "draws": 800,
+    "residual_sd_mean": 66199.29982070203,
+    "parameters": 53,
+    "observations": 5720
+  }
+}

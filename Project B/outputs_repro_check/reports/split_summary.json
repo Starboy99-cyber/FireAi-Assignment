@@ -1,0 +1,10 @@
+{
+  "requested_holdout_start": "2023-10-23",
+  "actual_holdout_start": "2023-10-23",
+  "train_rows": 5720,
+  "holdout_rows": 520,
+  "train_weeks": 143,
+  "holdout_weeks": 13,
+  "geographies": 40,
+  "conditional_forecast": "uses actual held-out media/control inputs; outcomes excluded from fitting"
+}

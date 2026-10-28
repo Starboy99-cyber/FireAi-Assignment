@@ -1,0 +1,42 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1333 >>
+stream
+BT /F1 9 Tf 45 750 Td 13 TL (Fire.Ai Project A - COO Memo) Tj T* () Tj T* (Recommendation) Tj T* (Select the base-stock policy for the current rollout. The forecast-driven candidate needs more tuning) Tj T* (because it did not beat the baseline.) Tj T* (Final observed-sales proxy: proposed fill rate 92.2%; base-stock 94.1%.) Tj T* (Final simulated cost: proposed $103,538; base-stock $88,516.) Tj T* (95% target achieved? No - disclose shortfall and refine before rollout.) Tj T* () Tj T* (How the policy works) Tj T* (It uses empirical weekday forecast quantiles, lead-time protection, daily store transfer requests,) Tj T* (Monday-only external POs,) Tj T* (and hard DC/store capacity limits. DC quantiles are computed from coherent demand scenarios, not summed) Tj T* (marginal quantiles.) Tj T* (Observed sales are a proxy for demand: the source has no inventory or verified stockout labels. Recovery) Tj T* (cases are sensitivities only.) Tj T* () Tj T* (Stress test) Tj T* (FOODS_3 doubled-lead-time disruption: fill rate 92.2%; warning mitigation 92.2%.) Tj T* (Mitigation pre-positions only during the permitted two-week warning and respects the same capacities.) Tj T* () Tj T* (Three risks and data needed) Tj T* (1. No inventory/stockout observations means censored demand is not identifiable. Collect on-hand,) Tj T* ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 7 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 487 >>
+stream
+BT /F1 9 Tf 45 750 Td 13 TL (Fire.Ai Project A - COO Memo \(continued\)) Tj T* () Tj T* (availability and lost-sales signals.) Tj T* (2. Missing historical prices constrain cost accuracy. Collect listing-effective dates and complete price) Tj T* (history.) Tj T* (3. Store demand dependence may differ from independent scenario assumptions. Add promotion, substitution) Tj T* (and DC order data.) Tj T* (All figures are simulated policy outcomes, not observed business savings.) Tj T* ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001632 00000 n 
+0000001758 00000 n 
+0000002296 00000 n 
+trailer << /Size 8 /Root 1 0 R >>
+startxref
+2366
+%%EOF

@@ -1,0 +1,5 @@
+# CMO/CFO memo (executed results)
+
+The model was trained through 2023-10-16; its 13-week conditional holdout WAPE is 23.0% and RMSE is 69,198. Forecasts condition on observed future media, so they are validation rather than a media forecast. The calibrated (low-weight) portfolio recommendation is in `budget_scenarios.csv`; it satisfies ±30% bounds where feasible. The $24m scenario is reported infeasible if its requested total exceeds the allowed envelope. Revenue, not profit, is optimized; margins were not supplied.
+
+The Channel 3 vendor result was treated as uncertain supporting evidence, not proof of causality. The next experiment should target the channel with largest decision regret in the ROI table, use randomized geo assignment (at least 10 treated / 10 control where feasible), 10–13 weeks, pre-registered incremental revenue/ROAS, cluster-aware analysis, and guardrails for contamination and other-channel changes. With only 40 geographies, power is limited and should be recalculated after choosing a minimum economically meaningful effect.

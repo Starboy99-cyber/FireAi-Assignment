@@ -1,0 +1,8 @@
+[project]
+name = "fireai-project-a"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.1,<3", "pyarrow>=14", "reportlab>=4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
